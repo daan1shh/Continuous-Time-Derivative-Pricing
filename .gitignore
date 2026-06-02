@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+._*
+
+# Data files (downloaded by notebook at runtime)
+*.csv
+*.parquet
+
+# PDF assignment sheets (not part of submission code)
+*.pdf
