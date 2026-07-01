@@ -13,9 +13,15 @@ venv/
 .DS_Store
 ._*
 
-# Data files (downloaded by notebook at runtime)
+# Data files (scratch / regenerated) are ignored by default...
 *.csv
 *.parquet
+
+# ...but the notebook loads these inputs from disk, so keep them tracked
+# for a portable, offline-reproducible submission:
+!data/rhm_prices.csv
+!data/cert_prices.csv
+!data/ECB Data Portal_20260615151519.csv
 
 # PDF assignment sheets (not part of submission code)
 *.pdf
